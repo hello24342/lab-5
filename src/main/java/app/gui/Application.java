@@ -370,7 +370,7 @@ public class Application {
 
                 try {
                     final float top = getTopGradeUseCase.getTopGrade(course);
-                    JOptionPane.showMessageDialog(jFrame, "Top Grade: " + top);
+                    JOptionPane.showMessageDialog(jFrame, "Top Grade is: " + top);
                     courseField.setText("");
                 }
                 catch (JSONException ex) {
